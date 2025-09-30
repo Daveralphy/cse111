@@ -1,0 +1,34 @@
+CSE 111 Proposal for a Student Chosen Program (Raphael Daveal)
+
+1. What is the title of your program?
+   Nigerian Market Price Analyzer
+
+2. What real-world problem will your program address or help to solve?
+   This program will help Nigerians, especially traders and consumers, 
+   track and analyze commodity prices across different markets. It will 
+   provide insights into price trends, identify the cheapest or most expensive 
+   markets, and help users make informed buying or selling decisions.
+
+3. What will you learn from developing this program?
+   I will learn how to work with CSV datasets in Python, data analysis and 
+   visualization using Python libraries, how to build interactive dashboards 
+   with Streamlit, and how to apply Python functions to organize code, calculate 
+   statistics, and summarize data.
+
+4. What Python modules will your program use?
+   I will use csv for reading and processing datasets, pandas for data analysis 
+   and manipulation, datetime for handling dates, streamlit for building an 
+   interactive dashboard, and matplotlib for visualizations.
+
+5. List the names of functions you will need?
+   a. read_market_data(filename)
+   b. calculate_statistics(data)
+   c. filter_by_market(data, market_name)
+   d. plot_price_trends(data, commodity_name)
+   e. display_dashboard(data)
+
+6. List the names of the test functions you will write.
+   a. test_read_market_data()
+   b. test_calculate_statistics()
+   c. test_filter_by_market()
+   d. test_plot_price_trends()
